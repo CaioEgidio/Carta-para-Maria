@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta do meu amor</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Fira+Code:wght@300..700&display=swap');
+
+        body {
+            background-color: #fff8dc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            position: relative;
+        }
+
+        .painel {
+            background-color: white;
+            width: 90%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 20px;
+            text-align: center;
+            padding: 40px 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        img {
+            width: 80%;
+            max-width: 200px;
+            height: auto;
+        }
+
+        h1 {
+            color: #333333;
+            font-family: "Bubblegum Sans";
+            font-size: 24px;
+        }
+
+        .texto-canto {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 14px;
+            font-family: "Bubblegum Sans";
+            color: #333333;
+        }
+
+        #carta {
+            height: 50px; 
+            width: 80%; 
+            max-width: 150px;
+            background-color: white; 
+            border-radius: 25px; 
+            border: 2px solid #333; 
+            color: #333; 
+            font-size: 18px; 
+            font-family: "Bubblegum Sans";
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            margin-top: 20px;
+        }
+
+        #carta:hover {
+            background-color: #f8f8f8;
+            box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="texto-canto">De Caio Marques para Maria Clara Albuquerque 15/03/2025</div>
+
+    <div class="painel">
+        <h1>Carta para o meu amor!</h1>
+        <img src="https://cdn.shopify.com/s/files/1/0683/0194/7201/files/Dear-Daniel-opening-c_480x480.gif?v=1725520771" alt="">
+        <button id="carta" onclick="location.href='carta.html'">Ver Carta</button>
+    </div>
+</body>
+</html>
